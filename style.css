@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+    font-size: large;
+}
+table,tr,td{
+    border: 1px solid red;
+    padding: 5px;
+    /* border-collapse: collapse; */
+}
+
+td{
+    color: white;
+    padding: 5px;
+    border:0;
+}
+.main{
+    display:flex;
+    flex-flow:column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.container{
+    display: flex;
+    
+}
+.container div input{
+    color:white;
+    padding:5px 10px;
+    justify-content: space-between;
+}
